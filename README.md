@@ -39,4 +39,4 @@ Ensure you have the CUDA Toolkit installed. This version uses a synthetic stream
 
 ```bash
 nvcc main.cpp filter_utils.cpp hdr_kernels.cu -o hdr_test
-./hdr_test
+hdr_test
